@@ -1,0 +1,21 @@
+{
+  "name": "cyberdream-vscode",
+  "displayName": "cyberdream-vscode",
+  "description": "Cyberdream theme for VSCode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "cyberdream",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyberdream-color-theme.json"
+      }
+    ]
+  }
+}
